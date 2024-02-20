@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Harvestify - Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap4-alpha3.min.css">
+    <!-- Google Font Roboto -->
+    <link rel="stylesheet" href="assets/fonts/font-roboto.css">
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: "Roboto", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            padding-bottom: 3.5rem;
+            padding-top: 3.5rem;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 300;
+        }
+        hr {
+            border-top: 1px solid #727273;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+        input[type=text], select {
+            width: 40%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 40%;
+            background-color: red;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px ;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #a33535;
+        }
+    </style>
+    <!-- Scripts -->
+    <script src="assets/jquery/jquery-3.1.0.min.js"></script>
+    <script src="assets/tether/tether.min.js"></script>
+    <script src="assets/bootstrap/bootstrap4-alpha3.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="assets/jquery.scrollspeed/jquery.scrollspeed.min.js"></script>
+    <script src="assets/jquery.inview/jquery.inview.min.js"></script>
+    <script>
+        $(function () {
+            setInterval(() => {
+                timer();
+            }, 1000);
+
+            function timer() {
+                $.ajax({
+                    url: 'https://api.thingspeak.com/channels/875168/feeds.json?api_key=4MX75FAP0HO8Z4WX&results=2',
+                    type: 'GET',
+                    dataType: "json",
+                    success: displayAll
+                });
+            }
+
+            function displayAll(data) {
+                const methane = Number(data.feeds[0].field1);
+                const co = Number(data.feeds[0].field2);
+                const smoke = Number(data.feeds[0].field3);
+                const voltage = data.feeds[0].field4;
+                const moisture = Number(data.feeds[0].field5);
+                const temp = 32;
+
+                document.getElementById("sales-doughnut-chart-us").innerText = methane;
+                document.getElementById("sales-doughnut-chart-nl").innerText = co;
+                document.getElementById("sales-doughnut-chart-de").innerText = smoke;
+                document.getElementById("sales-doughnut-chart-us1").innerText = voltage;
+                document.getElementById("sales-doughnut-chart-nl1").innerText = moisture;
+                document.getElementById("sales-doughnut-chart-de1").innerText = temp;
+            }
+        });
+
+        function hitapi() {
+            const options = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    pH: document.getElementById("ph").value,
+                    rainfall: document.getElementById("rainfall").value,
+                    N: document.getElementById("n").value,
+                    P: document.getElementById("p").value,
+                    K: document.getElementById("k").value
+                }),
+                credentials: 'include'
+            };
+
+            fetch('http://0.0.0.0:5555/crop', options)
+                .then((response) => {
+                    return response.json();
+                })
+                .then((jsonObject) => {
+                    console.log(jsonObject);
+                    document.write(`ID ${jsonObject.id} was created!`);
+                })
+                .catch((error) => {
+                    document.write(error);
+                });
+        }
+
+        function hitapi1() {
+            const options = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    pH: document.getElementById("ph").value,
+                    rainfall: document.getElementById("rainfall").value,
+                    N: document.getElementById("n").value,
+                    P: document.getElementById("p").value,
+                    K: document.getElementById("k").value
+                }),
+                credentials: 'include'
+            };
+
+            fetch('http://0.0.0.0:5555/fertilizer', options)
+                .then((response) => {
+                    return response.json();
+                })
+                .then((jsonObject) => {
+                    console.log(jsonObject);
+                    document.write(`ID ${jsonObject.id} was created!`);
+                })
+                .catch((error) => {
+                    document.write(error);
+                });
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>Harvestify - Dashboard</h1>
+    <hr class="m-t-2">
+    <h3>Gas Sensor Values</h3>
+    <!-- sales doughnut charts -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="inview" id="sales-doughnut-chart-us"></div>
+            <h3 class="align-center">Methane</h3>
+        </div>
+        <div class="col-md-4">
+            <div class="inview" id="sales-doughnut-chart-nl"></div>
+            <h3 class="align-center">CO</h3>
+        </div>
+        <div class="col-md-4">
+            <div class="inview" id="sales-doughnut-chart-de"></div>
+            <h3 class="align-center">Smoke</h3>
+        </div>
+    </div>
+    <hr class="m-t-2">
+    <h3>Other Sensor Values</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="inview" id="sales-doughnut-chart-us1"></div>
+            <h3 class="align-center">Volatge</h3>
+        </div>
+        <div class="col-md-4">
+            <div class="inview" id="sales-doughnut-chart-nl1"></div>
+            <h3 class="align-center">Moisture</h3>
+        </div>
+        <div class="col-md-4">
+            <div class="inview" id="sales-doughnut-chart-de1"></div>
+            <h3 class="align-center">Temperature</h3>
+        </div>
+    </div>
+    <hr class="m-t-2">
+</div> <!-- container -->
+<div class="col-sm-9 col-md-6 col-lg-8">
+    <h3>Enter N, P, K and pH Values</h3>
+    <form method="POST">
+        <input type="text" id="n" name="N" placeholder="Nitrogen"><br>
+        <input type="text" id="p" name="P" placeholder="Phosphorous"><br>
+        <input type="text" id="k" name="K" placeholder="Potassium"><br>
+        <input type="text" id="ph" name="pH" placeholder="pH Value"><br>
+        <input type="text" id="rainfall" name="rainfall" placeholder="Rainfall"><br>
+        <input type="button" onclick="hitapi()" value="Submit">
+    </form>
+</div>
+<div class="col-sm-3 col-md-6 col-lg-4"> Test</div>
+</body>
+</html>

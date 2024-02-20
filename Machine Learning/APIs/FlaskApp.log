@@ -1,0 +1,185 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2020 23:46:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2020 23:47:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2020 23:56:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:18:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:18:06] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:19:49] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:21:12] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:22:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:22:15] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:22:57] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:23:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:23:14] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:23:42] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:24:37] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:24:44] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:24:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:25:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:25:45] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:27:00] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:27:42] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:27:55] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:29:46] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:30:27] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:31:25] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:31:52] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:33:20] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:40:00] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 00:49:17] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 01:12:07] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2020 01:14:44] "[37mGET /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:31:37] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:31:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:34:36] "[33mGET /crop HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:34:38] "[33mGET /crop HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:35:34] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:36:16] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:36:28] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:36:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:37:38] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:43:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:45:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:45:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:45:53] "GET /crop HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:47:29] "GET /crop HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:47:29] "GET /crop HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:47:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2024 22:47:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:17:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:17:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:18:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:21:34] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:01] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:02] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:03] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:03] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:03] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:03] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:34] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:35] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:22:35] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:23:21] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:23:22] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:23:22] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:23:23] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2024 15:23:23] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:05:20] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:05:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:06:51] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:06:52] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:07:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:07:27] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:07:27] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:07:28] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5555
+ * Running on http://192.168.0.109:5555
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2024 09:09:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 712-250-877
+INFO:werkzeug: * Detected change in 'e:\\recommendation-system-for-farming-master\\machine learning\\apis\\txt.py', reloading
+INFO:werkzeug: * Detected change in 'e:\\recommendation-system-for-farming-master\\machine learning\\apis\\txt.py', reloading
+INFO:werkzeug: * Detected change in 'e:\\recommendation-system-for-farming-master\\machine learning\\apis\\tmppcowm8bw', reloading
+INFO:werkzeug: * Detected change in 'e:\\recommendation-system-for-farming-master\\machine learning\\apis\\txt.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 712-250-877
+ERROR:root:Error in predict_crop: The only supported seed types are: None,
+int, float, str, bytes, and bytearray.
